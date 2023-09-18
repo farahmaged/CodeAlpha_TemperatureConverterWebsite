@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div id="background-color">
+        <h2>Temperature Converter</h2>
+        <h4>Type in a number in either Fahrenheit or Kelvin or Rankine</h4>
+        <p>Feel free to use the up and down arrow keys on the keyboard</p>
+        <div class="temperature" id="fahrenheit-temperature">
+            <p id="fahrenheit-number">32</p>
+            <p>Fahrenheit</p>
+        </div>
+        <form id="input-form">
+            <input class="temperature" id="temperature-input" type="number" value="0">
+            <select id="unit-selector">
+                <option value="C">Celsius</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Rankine</option>
+            </select>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

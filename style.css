@@ -1,0 +1,93 @@
+body {
+  color: white;
+  font-family: 'Barlow';
+  margin: 0;
+  overflow: hidden;
+}
+
+#background-color {
+  height: 100vh;
+  transition: 0.3s;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 0;
+  padding-top: 100px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h4+p {
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#fahrenheit-temperature {
+  float: left;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: 72px;
+  text-align: center;
+  width: 50%;
+}
+
+#fahrenheit-number {
+  font-size: 70px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+form {
+  float: left;
+  margin-top: 95px;
+  text-align: center;
+  width: 50%;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Barlow';
+  font-size: 70px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#unit-selector {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Barlow';
+  font-size: 50px;
+  font-weight: 100;
+  outline: none;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#unit-selector option {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 25px;
+}
